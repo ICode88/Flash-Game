@@ -100,7 +100,7 @@ export default function Testimonials() {
                 ))}
               </div>
               <p className="mb-6 text-gray-700 dark:text-gray-300">
-                "{testimonial.content}"
+                &quot;{testimonial.content}&quot;
               </p>
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-3">

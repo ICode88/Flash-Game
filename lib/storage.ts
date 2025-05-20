@@ -59,7 +59,7 @@ export const storage = {
     if (typeof window === 'undefined') return;
     
     try {
-      const recentTransactions = JSON.parse(localStorage.getItem('recentTransactions') || '[]');
+      const recentTransactions:any = JSON.parse(localStorage.getItem('recentTransactions') || '[]');
       
       // Add to beginning of array and keep only the last 5
       recentTransactions.unshift(transactionId);
